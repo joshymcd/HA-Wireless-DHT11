@@ -124,8 +124,8 @@ void loop() {
   Serial.println("INFO: Closing the Wifi connection");
   WiFi.disconnect();
 
-  ESP.deepSleep(SLEEPING_TIME_IN_SECONDS * 1000000, WAKE_RF_DEFAULT);
-  delay(5000); // wait for deep sleep to happen
+  //ESP.deepSleep(SLEEPING_TIME_IN_SECONDS * 1000000, WAKE_RF_DEFAULT);
+  delay(SLEEPING_TIME_IN_SECONDS * 1000); // wait for deep sleep to happen
   
   
 
