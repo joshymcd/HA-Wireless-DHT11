@@ -12,8 +12,8 @@
 
 
 /************ WiFI ******************/
-const char* WIFI_SSID = "BTHub5-WKZC";/**CONF_WIFI_SSID ;//"USE A Config file or replace ";**/
-const char* WIFI_PASSWORD =  "5c7bd5e5fc";/**CONF_WIFI_PASSWORD  ;//"5c7bd5e5fc"; **/
+const char* WIFI_SSID = "**CONF_WIFI_SSID**"; 
+const char* WIFI_PASSWORD =  "**CONF_WIFI_PASSWORD**"; 
 
 
 /************ MQTT Server ******************/
